@@ -31,7 +31,7 @@
 
 
 ``` bash
-
+$ wget https://github.com/downgoon/video-motion-detection/releases/download/0.1.0/video-motion-detection-0.1.0.tar.gz
 $ tar zxvf video-motion-detection-0.1.0.tar.gz
 $ cd video-motion-detection-0.1.0
 $ bin/video-motion-detection console
@@ -42,7 +42,7 @@ $ bin/video-motion-detection console
 
 此时电脑的摄像头会被开启，对着摄像头摇摇头？AI会标记出运动区域。
 
->顺便说一下，``video-motion-detection-0.1.0.tar.gz``超过10M，Github不支持托管。请自行编译：
+顺便说一下，如果想自己编译，请执行：
 
 ``` bash
 $ git checkout 0.1.0

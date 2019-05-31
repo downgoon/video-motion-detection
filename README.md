@@ -76,7 +76,7 @@ $ file target/video-motion-detection-0.1.0.tar.gz
 
 
 上述流程中，第2环节的运动检测，介绍个朴素算法以便大家入门。这个算法简单讲就是比对前后两帧的每个像素，像素差值大于一定程度，就标记为``运动像素``。
-
+用于演示这个算法过程的Excel动画，请点击下载 [video-motion-detection.xlsx](assets/video-motion-detection.xlsx)。
 
 
 ### 像素划分区块
